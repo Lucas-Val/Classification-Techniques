@@ -5,7 +5,7 @@ attach(Default)
 str(Default)
 head(Default)
 
-# Association between default and balance
+# Association between default & balance
 boxplot(balance ~ default, data = Default)
 
 # Fitting a logistic model 
