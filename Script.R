@@ -1,4 +1,3 @@
-# ISLR package
 library(ISLR)
 attach(Default)
 ?Default
