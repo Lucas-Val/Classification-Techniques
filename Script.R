@@ -12,7 +12,6 @@ model1 = glm(default ~ balance, data = Default, family = "binomial")
 summary(model1)
 
 # Predicted probability 
-# Method 1
 exp(-10.65 + 0.005499*500)/(1 + exp(-10.65 + 0.005499*500))
 # Method 2 
 predict(model1, newdata = list(balance = 500), type =  "response")
