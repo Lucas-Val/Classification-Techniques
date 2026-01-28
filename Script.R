@@ -54,5 +54,6 @@ pred_class
 
 #  Misclassifications matrix 
 table(Predicted = pred_class, Observed = Direction)
+
 # misclassification rate
 (141 + 457) / (145 + 141 + 457 + 507)
